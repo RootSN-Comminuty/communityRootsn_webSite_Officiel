@@ -17,8 +17,8 @@ const App = () => {
             <Home />
             <About />
             <Gallery />
-            <Ministers />
             <Blocs />
+            <Ministers />
             <Contact />
             <NotFound />
         </BrowserRouter>
