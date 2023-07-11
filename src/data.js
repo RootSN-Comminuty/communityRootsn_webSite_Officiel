@@ -12,16 +12,16 @@ export const links = [
         path: '/about'
     },
     {
-        name: "Gallerie",
-        path: '/gallery'
-    },
-    {
         name: "Blog",
         path: '/blocs'
     },
     {
         name: "Ministres",
         path: '/ministers'
+    },
+    {
+        name: "Gallerie",
+        path: '/gallery'
     },
     {
         name: "Contact",

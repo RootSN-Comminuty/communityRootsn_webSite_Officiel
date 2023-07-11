@@ -71,3 +71,34 @@ img {
     object-fit: cover;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+.btn {
+    color: var(--color-gray-100);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-primary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    color: var(--color-gray-600);
+    background: var(--color-secondary);
+}
+
+.btn.sm {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+}
+
+.btn.sm:hover {
+    background: var(--color-gray-100);
+}
