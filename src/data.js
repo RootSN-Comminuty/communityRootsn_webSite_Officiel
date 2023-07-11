@@ -12,7 +12,7 @@ export const links = [
         path: '/about'
     },
     {
-        name: "Gallery",
+        name: "Gallerie",
         path: '/gallery'
     },
     {
@@ -20,7 +20,7 @@ export const links = [
         path: '/blocs'
     },
     {
-        name: "Ministers",
+        name: "Ministres",
         path: '/ministers'
     },
     {
