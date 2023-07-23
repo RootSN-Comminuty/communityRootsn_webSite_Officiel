@@ -27,6 +27,10 @@ nav {
     width: 7rem;
 }
 
+span {
+    color: var(--color-secondary);
+}
+
 .nav__links {
     display: flex;
     gap: 3.5rem;
