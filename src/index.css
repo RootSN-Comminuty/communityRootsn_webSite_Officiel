@@ -145,6 +145,7 @@ section {
 .card:hover {
     background: transparent;
     border-color: var(--color-gray-400);
+    border-radius: 3rem 3rem 3rem 3rem;
     cursor: default;
 }
 
