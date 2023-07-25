@@ -87,7 +87,7 @@
 }
 
 .values__image {
-    margin-top: 5.5rem;
+    margin-top: 15.5rem;
     filter: saturate(0.25);
     transition: var(--transition);
 }

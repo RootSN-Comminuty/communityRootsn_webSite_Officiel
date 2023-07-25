@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import Image from '../images/values.jpg'
+import Image from '../images/values.png'
 import SectionHead from './SectionHead'
 import { GiCutDiamond } from 'react-icons/gi'
 //import { AiFillCaretRight } from 'react-icons/ai'
