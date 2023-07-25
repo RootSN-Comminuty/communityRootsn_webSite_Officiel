@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import Image from '../images/values.jpg'
 import SectionHead from './SectionHead'
-//import { GiCutDiamond } from 'react-icons/gi'
-import { AiFillCaretRight } from 'react-icons/ai'
+import { GiCutDiamond } from 'react-icons/gi'
+//import { AiFillCaretRight } from 'react-icons/ai'
 import { values } from '../data'
 import Card from '../UI/Card'
 
@@ -16,7 +16,7 @@ const Values = () => {
                     </div>
                 </div>
                 <div className="values__right">
-                    <SectionHead icon={AiFillCaretRight} title="Values" />
+                    <SectionHead icon={<GiCutDiamond />} title="Values" />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ea. Quaerat minus placeat dolore ducimus</p>
                     <div className="values__wrapper">
                         {
