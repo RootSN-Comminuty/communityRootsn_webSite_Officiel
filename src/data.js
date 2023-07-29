@@ -12,6 +12,10 @@ export const links = [
         path: '/about'
     },
     {
+        name: "Evenements",
+        path: '/event'
+    },
+    {
         name: "Blog",
         path: '/blocs'
     },
@@ -20,7 +24,7 @@ export const links = [
         path: '/ministers'
     },
     {
-        name: "Gallerie",
+        name: "Galerie",
         path: '/gallery'
     },
     {
@@ -28,11 +32,6 @@ export const links = [
         path: '/contact'
     }
 ]
-
-
-
-
-
 
 
 export const programs = [
@@ -67,12 +66,6 @@ export const programs = [
 ]
 
 
-
-
-
-
-
-
 export const values = [
     {
         id: 1,
@@ -99,13 +92,6 @@ export const values = [
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     }
 ]
-
-
-
-
-
-
-
 
 
 export const faqs = [
@@ -140,12 +126,6 @@ export const faqs = [
         answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
     }
 ]
-
-
-
-
-
-
 
 
 export const testimonials = [
@@ -185,11 +165,6 @@ export const testimonials = [
         avatar: require("./images/avatar5.jpg")
     }
 ]
-
-
-
-
-
 
 
 export const plans = [
@@ -257,10 +232,6 @@ export const plans = [
         ]
     }
 ]
-
-
-
-
 
 
 

@@ -33,7 +33,7 @@ span {
 
 .nav__links {
     display: flex;
-    gap: 3.5rem;
+    gap: 2.5rem;
     align-items: center;
 }
 
