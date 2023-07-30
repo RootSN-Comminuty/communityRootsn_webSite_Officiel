@@ -10,7 +10,7 @@ nav {
     z-index: 99;
 }
 
-/* Only Showa on Medium and Small Screens */
+/* Only Show on Medium and Small Screens */
 .nav__toggle-btn {
     display: none;
 }
@@ -25,6 +25,7 @@ nav {
 
 .logo {
     width: 7rem;
+    display: flex;
 }
 
 span {
