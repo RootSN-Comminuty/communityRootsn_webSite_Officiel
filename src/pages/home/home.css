@@ -169,8 +169,8 @@
 }
 
 .testimonial__avatar {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 1.5rem;
     box-decoration-break: 2px solid transparent;
     overflow: hidden;
@@ -219,6 +219,7 @@
 
 /* --------------------Footer Section-------------------- */
 footer {
+    width: 100vw;
     background: var(--color-primary);
     margin-top: 7rem;
     padding-top: 7rem;
@@ -227,6 +228,7 @@ footer {
 }
 
 .footer__container {
+    height: 100%;
     display: grid;
     grid-template-columns: 26rem 1fr 1fr 1fr;
     gap: 6rem;
