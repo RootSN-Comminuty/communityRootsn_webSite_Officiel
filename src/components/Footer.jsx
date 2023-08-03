@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 // import Logo from '../images/logo.png'
 import { FaLinkedinIn } from "react-icons/fa"
 import { FaFacebookF } from "react-icons/fa"
-import { AiOutlineTwitter } from "react-icons/ai"
-import { AiFillInstagram } from "react-icons/ai"
+import { BsTwitter } from "react-icons/bs"
+import { BsInstagram } from "react-icons/bs"
 
 
 
@@ -24,8 +24,8 @@ const Footer = () => {
                     <div className="footer__socials">
                         <a href="https://linkedin.com/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn /></a>
                         <a href="https://facebook.com/" target="_blank" rel="noreferrer noopener"><FaFacebookF /></a>
-                        <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><AiOutlineTwitter /></a>
-                        <a href="https://instagram.com/" target="_blank" rel="noreferrer noopener"><AiFillInstagram /></a>
+                        <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><BsTwitter /></a>
+                        <a href="https://instagram.com/" target="_blank" rel="noreferrer noopener"><BsInstagram /></a>
                     </div>
                 </article>
                 <article>

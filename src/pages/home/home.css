@@ -257,6 +257,7 @@ footer {
 }
 
 .footer__socials a {
+    height: 2.9rem;
     background: var(--color-gray-100);
     padding: 0.7rem;
     border: 2px solid transparent;
@@ -265,12 +266,17 @@ footer {
 }
 
 .footer__socials a svg {
+    height: 1rem;
     color: var(--color-gray-600);
 }
 
 .footer__socials a:hover {
     border-color: var(--color-gray-100);
     background: transparent;
+}
+
+.footer__socials a svg:hover {
+    color: var(--color-gray-100);
 }
 
 .footer__copyright {
