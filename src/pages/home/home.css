@@ -219,7 +219,6 @@
 
 /* --------------------Footer Section-------------------- */
 footer {
-    width: 100vw;
     background: var(--color-primary);
     margin-top: 7rem;
     padding-top: 7rem;
