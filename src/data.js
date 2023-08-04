@@ -9,23 +9,23 @@ export const links = [
     },
     {
         name: "A Propos",
-        path: '/about'
+        path: '/apropos'
     },
     {
         name: "Evenements",
-        path: '/event'
+        path: '/evenements'
     },
     {
         name: "Blog",
-        path: '/blocs'
+        path: '/blogs'
     },
     {
         name: "Ministres",
-        path: '/ministers'
+        path: '/ministres'
     },
     {
         name: "Galerie",
-        path: '/gallery'
+        path: '/galerie'
     },
     {
         name: "Contact",
