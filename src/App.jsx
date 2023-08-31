@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/home/Home'
 import About from './pages/about/About'
+import Evenements from './pages/evenements/Evenements'
 import Gallery from './pages/gallery/Gallery'
 import Ministers from './pages/ministers/Ministers'
 import Blocs from './pages/blocs/Blocs'
@@ -17,9 +18,10 @@ const App = () => {
             <Routes>
                 <Route index element={<Home />} />
                 <Route path='about' element={<About />} />
-                <Route path='gallery' element={<Gallery />} />
+                <Route path='evenements' element={<Evenements />} />
                 <Route path='blocs' element={<Blocs />} />
                 <Route path='ministers' element={<Ministers />} />
+                <Route path='gallery' element={<Gallery />} />
                 <Route path='contact' element={<Contact />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
