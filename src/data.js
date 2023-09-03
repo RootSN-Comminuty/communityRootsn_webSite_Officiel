@@ -9,7 +9,7 @@ export const links = [
     },
     {
         name: "A Propos",
-        path: '/apropos'
+        path: '/about'
     },
     {
         name: "Evenements",
