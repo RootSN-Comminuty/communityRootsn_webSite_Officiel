@@ -4,7 +4,7 @@ import HeaderImage from '../../images/header_bg_3.jpg'
 import './gallery.css'
 
 const Gallery = () => {
-    const galleryLenght = 15;
+    const galleryLenght = 6;
     const images = [];
 
     for (let i = 1; i <= galleryLenght; i++) {

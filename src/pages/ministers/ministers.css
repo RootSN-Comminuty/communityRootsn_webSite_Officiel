@@ -1,27 +1,33 @@
-.trainers__container {
+.section__header {
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+    padding-left: 8rem;
+}
+
+.ministers__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
 }
 
-.card.trainer {
+.card.minister {
     padding: 1rem;
 }
 
-.trainer__img {
+.minister__img {
     border-radius: 2rem 2rem;
     overflow: hidden;
 }
 
-.trainer h3 {
+.minister h3 {
     margin-top: 2rem;
 }
 
-.trainer p {
+.minister p {
     margin-top: 0.5rem;
 }
 
-.trainer__socials {
+.minister__socials {
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -29,7 +35,7 @@
     margin: 2rem 0;
 }
 
-.trainer__socials a {
+.minister__socials a {
     font-size: 0.7rem;
     background: var(--color-gray-600);
     padding: 0.8rem;
@@ -37,14 +43,14 @@
     transition: var(--transition);
 }
 
-.trainer:hover a {
+.minister:hover a {
     background: var(--color-gray-500);
 }
 
 
 /* --------------------MEDIA QUERIES (medium screens)-------------------- */
 @media screen and (max-width:1024px) {
-    .trainers__container {
+    .ministers__container {
         grid-template-columns: 1fr 1fr;
         gap: 2.5rem;
     }
@@ -52,12 +58,12 @@
 
 /* --------------------MEDIA QUERIES (small screens)-------------------- */
 @media screen and (max-width:600px) {
-    .trainers__container {
+    .ministers__container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
-    .card.trainer {
+    .card.minister {
         width: 90%;
         margin-inline: auto;
     }

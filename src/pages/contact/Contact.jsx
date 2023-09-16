@@ -10,9 +10,8 @@ import './contact.css'
 const Contact = () => {
     return (
         <>
-            <Header title="Get In Touch" image={HeaderImage}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                A aliquid earum labore ut doloribus quae nam sit, nemo autem! Odit!
+            <Header title="Contacter-Nous" image={HeaderImage}>
+                Integrer la communauté #rootSNCommunity en un clique!
             </Header>
             <section className='contact'>
                 <div className='container contact__container'>

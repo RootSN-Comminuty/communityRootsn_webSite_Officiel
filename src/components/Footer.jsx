@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                 </article>
                 <article>
-                    <h4>Permalinks</h4>
+                    <h4>Liens Utiles</h4>
                     <Link to="/about">A Propos</Link>
                     <Link to="/event">Evenements</Link>
                     <Link to="/blocs">Blog</Link>
@@ -38,7 +38,7 @@ const Footer = () => {
                     <Link to="/contact">Contact</Link>
                 </article>
                 <article>
-                    <h4>Insights</h4>
+                    <h4>Liens Utiles</h4>
                     <Link to="/s">A Propos</Link>
                     <Link to="/s">Evenements</Link>
                     <Link to="/s">Blog</Link>
@@ -46,7 +46,7 @@ const Footer = () => {
                     <Link to="/s">Galerie</Link>
                 </article>
                 <article>
-                    <h4>Permalinks</h4>
+                    <h4>Nos Contacts</h4>
                     <Link to="/contact">Contacter-Nous</Link>
                     <Link to="/s">Support</Link>
                 </article>

@@ -8,8 +8,17 @@ const MainHeader = () => {
             <div className="container main__header-container">
                 <div className="main__header-left">
                     <h4>#rootSN-Community</h4>
-                    <h1><span>#rootSN</span> c'est moi mais aussi c'est vous !</h1>
+                    <h1 class="title">#rootSN c'est moi mais aussi c'est vous !
+                        <div class="aurora">
+                            <div class="aurora__item"></div>
+                            <div class="aurora__item"></div>
+                            <div class="aurora__item"></div>
+                            <div class="aurora__item"></div>
+                        </div>
+                    </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Deserunt, temporibus. Recusandae accusantium voluptatem perspiciatis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Deserunt, temporibus. Recusandae accusantium voluptatem perspiciatis.
                     </p>
                     <Link to="/about" className="btn lg">Savoir Plus</Link>

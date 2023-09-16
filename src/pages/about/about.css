@@ -1,12 +1,12 @@
 .about__section-image {
-    border-radius: 50%;
+    border-radius: 2rem 2rem;
     overflow: hidden;
-    transform: skew(15deg);
-    transition: var(--transition);
+    /* transform: skew(15deg);
+    transition: var(--transition); */
 }
 
 .about__section-image:nth-child(2) {
-    transform: skew(-15deg);
+    /* transform: skew(-15deg); */
 }
 
 .about__section-image:hover {
