@@ -52,7 +52,7 @@
 :root {
     --bg: transparent --clr-1: #00c2ff;
     --clr-2: #36a769;
-    --clr-3: #cccac7be;
+    --clr-3: #a0a36ebe;
     --clr-4: #1c66aa;
 
     --blur: 1rem;
@@ -248,6 +248,51 @@
 } */
 
 
+/* --------------------Desc Section-------------------- */
+.desc-container {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 5%;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.desc-image {
+    /* border-radius: 2rem 2rem;
+    overflow: hidden; */
+}
+
+
+.desc-content h1 {
+    margin-bottom: 2rem;
+}
+
+.desc-content p {
+    margin-bottom: 1rem;
+}
+
+/* --------------------Desc2 Section-------------------- */
+.desc2-container {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    gap: 5%;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.desc-2image {
+    /* border-radius: 2rem 2rem;
+    overflow: hidden; */
+}
+
+
+.desc2-content h1 {
+    margin-bottom: 2rem;
+}
+
+.desc2-content p {
+    margin-bottom: 1rem;
+}
 
 /* --------------------Programs Section-------------------- */
 .programs {
@@ -412,6 +457,30 @@
     height: 3rem;
 }
 
+/* --------------------Join Section-------------------- */
+.join {
+    background: var(--color-gray-500);
+    margin-top: 7rem;
+    padding-top: 4rem;
+    margin-bottom: 5rem;
+    padding-bottom: 4rem;
+}
+
+.join__container {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.join__container h2 {
+    margin-bottom: 2rem;
+
+}
+
+.join__container .btn {
+    margin-top: 2rem;
+    display: inline-block;
+}
+
 
 /* --------------------Footer Section-------------------- */
 footer {
@@ -502,12 +571,48 @@ footer {
         height: 16rem;
     }
 
+    /* DESC */
+    .desc-image {
+        width: 60%;
+    }
+
+    .desc-content h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    .desc-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .desc-image {
+        grid-row: 1;
+    }
+
+    /* DESC2 */
+    .desc2-image {
+        width: 60%;
+    }
+
+    .desc2-content h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    .desc2-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .desc2-image {
+        grid-row: 1;
+    }
+
     /* PROGRAMS */
     .programs__wrapper {
         grid-template-columns: 1fr;
     }
 
-    /* activities */
+    /* ACTIVITIES */
     .activities__container {
         grid-template-columns: 1fr;
         justify-content: center;
@@ -557,6 +662,26 @@ footer {
 
     .main__header-container {
         grid-template-columns: 1fr;
+    }
+
+    /* DESC */
+    .desc-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .desc-container {
+        gap: 2rem;
+    }
+
+    /* DESC2 */
+    .desc2-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .desc2-container {
+        gap: 2rem;
     }
 
     /* PROGRAMS */

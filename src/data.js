@@ -7,10 +7,6 @@ export const links = [
         path: '/'
     },
     {
-        name: "A Propos",
-        path: '/about'
-    },
-    {
         name: "Evenements",
         path: '/evenements'
     },
@@ -26,10 +22,14 @@ export const links = [
     //     name: "Galerie",
     //     path: '/galerie'
     // },
+    // {
+    //     name: "Contact",
+    //     path: '/contact'
+    // }
     {
-        name: "Contact",
-        path: '/contact'
-    }
+        name: "A Propos",
+        path: '/about'
+    },
 ]
 
 
@@ -166,71 +166,7 @@ export const testimonials = [
 ]
 
 
-export const plans = [
-    {
-        id: 1,
-        name: 'Silver Package',
-        desc: 'This package is perfect for beginners who need constant help',
-        price: 29.99,
-        features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: false},
-            {feature: 'Sixth Feature', available: false},
-            {feature: 'Seventh Feature', available: false},
-            {feature: 'Seventh Feature Plus', available: false},
-            {feature: 'Eighth Feature', available: false},
-            {feature: 'Ninth Feature', available: false},
-            {feature: 'Tenth Feature', available: false},
-            {feature: 'Eleventh Feature', available: false}
-        ]
-    },
-    {
-        id: 2,
-        name: 'Gold Package',
-        desc: 'This is the perfect package for beginners who know what their doing',
-        price: 49.99,
-        features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Seventh Feature Plus', available: true},
-            {feature: 'Eighth Feature', available: false},
-            {feature: 'Ninth Feature', available: false},
-            {feature: 'Tenth Feature', available: false},
-            {feature: 'Eleventh Feature', available: false}
-        ]
-    },
-    {
-        id: 3,
-        name: 'Platinum Package',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 89.99,
-        features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Seventh Feature Plus', available: true},
-            {feature: 'Eighth Feature', available: true},
-            {feature: 'Ninth Feature', available: true},
-            {feature: 'Tenth Feature', available: true},
-            {feature: 'Eleventh Feature', available: true}
-        ]
-    }
-]
+export const blogs = []
 
 
 const Minister1 = require('./images/minister1.jpg')
@@ -289,15 +225,95 @@ export const ministers = [
         name: 'Prenom & Nom',
         job: 'Cyber Ministre',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
+        id: 7,
+        image: Minister6,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ministre',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
+        id: 8,
+        image: Minister6,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ministre',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     }
 ]
 
 export const ambassadorGB = [
     {
+        id: 1,
+        image: Minister7,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ambassadeur',
+        pays: 'Guinee Bissau',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
+        id: 2,
+        image: Minister7,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ambassadeur',
+        pays: 'Guinee Conakry',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
+        id: 3,
+        image: Minister7,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ambassadeur',
+        pays: 'Dubai',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
+        id: 4,
+        image: Minister7,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ambassadeur',
+        pays: 'Mali',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
+        id: 5,
+        image: Minister7,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ambassadeur',
+        pays: 'Togo',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
+        id: 6,
+        image: Minister7,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ambassadeur',
+        pays: 'USA',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
         id: 7,
         image: Minister7,
         name: 'Prenom & Nom',
         job: 'Cyber Ambassadeur',
+        pays: 'France',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    },
+
+    {
+        id: 8,
+        image: Minister7,
+        name: 'Prenom & Nom',
+        job: 'Cyber Ambassadeur',
+        pays: 'Niger',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     }
 ]

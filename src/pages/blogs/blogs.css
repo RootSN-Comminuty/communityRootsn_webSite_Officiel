@@ -1,0 +1,47 @@
+.blog__container {
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.blog__image {
+    margin-top: -5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    height: 40rem;
+}
+
+.blog__container .btn {
+    margin-top: -1rem;
+    display: inline-block;
+}
+
+
+/* --------------------MEDIA QUERIES (medium screens)-------------------- */
+@media screen and (max-width:1024px) {
+    .blog__image {
+        margin-top: 1rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .blog__container h2 {
+        margin-top: 2rem;
+        font-size: 20px;
+    }
+
+}
+
+/* --------------------MEDIA QUERIES (small screens)-------------------- */
+@media screen and (max-width:600px) {
+    .about__section-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .about__story-container,
+    .about__vision-container,
+    .about__mission-container {
+        gap: 2rem;
+    }
+}

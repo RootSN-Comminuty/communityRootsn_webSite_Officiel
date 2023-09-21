@@ -20,7 +20,7 @@ const About = () => {
                         <img src={StoryImage} alt="Our Story Image" />
                     </div>
                     <div className="about__section-content">
-                        <h1>Section 1</h1>
+                        <h1>Qui sommes-nous</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis
                             reprehenderit porro qui, dignissimos
@@ -40,7 +40,7 @@ const About = () => {
             <section className="about__vision">
                 <div className="container about__vision-container">
                     <div className="about__section-content">
-                        <h1>Section 2</h1>
+                        <h1>Nos valeurs</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatibus culpa architecto vitae veniam earum doloribus
                             exercitationem consequatur, corrupti, quas necessitatibus quisquam illo repellendus. Nobis veniam aspernatur minus,
@@ -62,7 +62,7 @@ const About = () => {
                         <img src={MissionImage} alt="Our Mission Image" />
                     </div>
                     <div className="about__section-content">
-                        <h1>Section 3</h1>
+                        <h1>Nos Missions</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis
                             reprehenderit porro qui, dignissimos
@@ -76,7 +76,6 @@ const About = () => {
 
                 </div>
             </section>
-
         </>
     )
 }

@@ -1,6 +1,6 @@
 import Card from '../UI/Card'
 
-const Minister = ({ image, name, job, socials }) => {
+const Minister = ({ image, name, job, pays, socials }) => {
     return (
         <Card className="minister">
             <div className="minister__img">
@@ -8,6 +8,7 @@ const Minister = ({ image, name, job, socials }) => {
             </div>
             <h3>{name}</h3>
             <p>{job}</p>
+            <p>{pays}</p>
             <div className="minister__socials">
                 {
                     socials.map(({ icon, link }, index) => {

@@ -1,0 +1,26 @@
+.evens .section__header {
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+}
+
+.evens .evens-container {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 5%;
+    margin-top: 1rem;
+    margin-bottom: 12rem;
+}
+
+.evens-image-right {
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+
+.evens-left h1 {
+    margin-bottom: 1rem;
+}
+
+.evens-left p {
+    margin-bottom: 3rem;
+}

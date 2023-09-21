@@ -14,12 +14,12 @@ import './ministers.css'
 const Ministers = () => {
     return (
         <>
-            <Header title="Gouvernement" image={HeaderImage}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <Header title="Cyber Gouvernement" image={HeaderImage}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 A aliquid earum labore ut doloribus quae nam sit, nemo autem! Odit!
             </Header>
             <section className='ministers'>
                 <div className='section__header'>
-                    <SectionHead icon={<MdOutlineSecurity />} title="Cyber Gouvernement" />
+                    <SectionHead icon={<MdOutlineSecurity />} title="Cyber Ministre" />
                 </div>
                 <div className='container ministers__container'>
                     {
@@ -43,8 +43,8 @@ const Ministers = () => {
                 </div>
                 <div className='container ministers__container'>
                     {
-                        ambassadorGB.map(({ id, image, name, job, socials }) => {
-                            return <Minister key={id} image={image} name={name} job={job} socials={
+                        ambassadorGB.map(({ id, image, name, job, pays, socials }) => {
+                            return <Minister key={id} image={image} name={name} job={job} pays={pays} socials={
                                 [
                                     { icon: <BsInstagram />, link: socials[0] },
                                     { icon: <AiOutlineTwitter />, link: socials[1] },

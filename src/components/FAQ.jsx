@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { AiOutlinePlus } from "react-icons/ai"
-import { AiOutlineMinus } from "react-icons/ai"
+import { FaChevronRight } from "react-icons/fa"
+import { FaChevronDown } from "react-icons/fa"
 
 
 const FAQ = ({ question, answer }) => {
@@ -15,7 +15,7 @@ const FAQ = ({ question, answer }) => {
                 <h4>{question}</h4>
                 <button className="faq__icon">
                     {
-                        isAnswerShowing ? <AiOutlineMinus /> : <AiOutlinePlus />
+                        isAnswerShowing ? <FaChevronDown /> : <FaChevronRight />
                     }
                 </button>
             </div>
