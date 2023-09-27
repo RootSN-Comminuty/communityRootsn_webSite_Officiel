@@ -1,8 +1,8 @@
 nav {
-    height: 5rem;
+    height: 4.5rem;
     width: 100vw;
     background: var(--color-primary);
-    opacity: .92;
+    /* opacity: .92; */
     display: grid;
     place-items: center;
     position: fixed;
@@ -35,8 +35,9 @@ span {
 
 .nav__links {
     display: flex;
-    gap: 2.5rem;
+    gap: 2rem;
     align-items: center;
+    font-size: .9rem;
 }
 
 .nav__links a {
@@ -51,7 +52,7 @@ span {
     position: relative;
 }
 
-.active-nav::after {
+/* .active-nav::after {
     content: '';
     display: block;
     width: 1.2rem;
@@ -60,8 +61,8 @@ span {
     position: absolute;
     left: calc(50% - 1.4rem);
     transform: rotate(45deg);
-    margin: 0.9rem;
-}
+    margin: 0.8rem;
+} */
 
 /* MEDIA QUERIES (medium and small screens)*/
 @media screen and (max-width: 1024px) {
@@ -91,7 +92,7 @@ span {
     }
 
     .nav__links li {
-        height: 4rem;
+        height: 3.5rem;
         width: 100%;
         box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.5);
         animation: navAnimation 600ms ease forwards;

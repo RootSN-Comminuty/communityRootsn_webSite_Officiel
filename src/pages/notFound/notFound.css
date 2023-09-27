@@ -1,9 +1,45 @@
 .notfound__container {
     text-align: center;
-    padding-top: 8rem;
+    padding-top: -5rem;
+}
+
+.notfound__image {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    height: 40rem;
+}
+
+.notfound__image:hover {
+    filter: drop-shadow(10px 8px 6px var(--color-secondary));
 }
 
 .notfound__container .btn {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     display: inline-block;
+    font-weight: 600;
+}
+
+
+/* --------------------MEDIA QUERIES (medium screens)-------------------- */
+@media screen and (max-width:1024px) {
+    .notfound__image {
+        margin-top: 1rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .notfound__container h2 {
+        margin-top: 2rem;
+        font-size: 20px;
+    }
+
+}
+
+/* --------------------MEDIA QUERIES (small screens)-------------------- */
+@media screen and (max-width:600px) {
+    .notfound__container {
+        gap: 2rem;
+    }
 }

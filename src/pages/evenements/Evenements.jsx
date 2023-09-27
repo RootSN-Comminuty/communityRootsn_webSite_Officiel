@@ -2,12 +2,12 @@
 import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import HeaderImage from '../../images/header_bg_3.jpg'
-import EvensImage from "../../images/cybersecurite-etablissement.jpg";
+import Evens1Image from "../../images/rm373batch4-15.jpg";
+import Evens2Image from "../../images/rm373batch4-15.jpg";
 
-import SectionHead from "../../components/SectionHead"
-import { MdOutlineSecurity } from 'react-icons/md'
-import Desc from '../../components/Desc'
-import Desc2 from '../../components/Desc2'
+//import SectionHead from "../../components/SectionHead"
+//import { MdOutlineSecurity } from 'react-icons/md'
+
 import Programs from '../../components/Programs'
 
 import './evenements.css'
@@ -46,11 +46,41 @@ const Evenements = () => {
 
                 </div>
             </section> */}
+            <section className="evens1">
+                <div className="container evens1-container">
+                    <div className="evens1-image">
+                        <img src={Evens1Image} alt="Evens1 Image" />
+                    </div>
+                    <div className="evens1-content">
+                        <h1><span>Octobre Cyber</span> by #rootSNCommunity</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <Link to="/about" className="btn lg">Suivre l'Evenement</Link>
+                    </div>
+                </div>
+            </section>
 
-            <Desc2 />
             <Programs />
-            <Desc />
 
+            <section className="evens2">
+                <div className="container evens2-container">
+
+                    <div className="evens2-content">
+                        <h1><span>OCBRSN2023</span> Octobre Cyber</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <Link to="/about" className="btn lg">Suivre l'Evenement</Link>
+                    </div>
+                    <div className="evens2-image">
+                        <img src={Evens2Image} alt="Evens2 Image" />
+                    </div>
+
+                </div>
+            </section>
 
         </>
     )

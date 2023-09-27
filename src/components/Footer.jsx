@@ -38,12 +38,12 @@ const Footer = () => {
                     <Link to="/contact">Contact</Link>
                 </article>
                 <article>
-                    <h4>Liens Utiles</h4>
+                    <h4>OCBRSN2023</h4>
                     <Link to="/s">A Propos</Link>
-                    <Link to="/s">Evenements</Link>
+                    <Link to="/s">Speakers</Link>
                     <Link to="/s">Blog</Link>
-                    <Link to="/s">Ministres</Link>
-                    <Link to="/s">Galerie</Link>
+                    <Link to="/s">Programme</Link>
+                    <Link to="/s">Contact</Link>
                 </article>
                 <article>
                     <h4>Nos Contacts</h4>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </article>
             </div>
             <div className="footer__copyright">
-                <small>&copy; Copyright #rootSNCommunity. Tous droits réservés</small>
+                <small>&copy; Copyright, 2023 #rootSNCommunity. Tous droits réservés</small>
             </div>
         </footer>
     )

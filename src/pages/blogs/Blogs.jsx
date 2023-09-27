@@ -1,6 +1,6 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/header_bg_1.jpg'
-import ConstructionImage from '../../images/Construction-cuate.png'
+import ConstructionImage from '../../images/Blog2.png'
 import { Link } from 'react-router-dom'
 import './blogs.css'
 
@@ -13,7 +13,7 @@ const Blogs = () => {
 
             <section>
                 <div className='container blog__container'>
-                    <h2>Page En Construction</h2>
+                    <h2>Pas de contenu pour le moment</h2>
                     <img className='blog__image' src={ConstructionImage} alt="Page en Construction" />
                     <Link to="/" className='btn'>Retour vers la page d'Accueil</Link>
                 </div>

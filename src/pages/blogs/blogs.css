@@ -4,16 +4,18 @@
 }
 
 .blog__image {
-    margin-top: -5rem;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     width: 40rem;
     height: 40rem;
+    filter: drop-shadow(10px 8px 6px var(--color-secondary));
 }
 
 .blog__container .btn {
-    margin-top: -1rem;
+    margin-top: 1rem;
     display: inline-block;
+    font-weight: 600;
 }
 
 
@@ -34,14 +36,7 @@
 
 /* --------------------MEDIA QUERIES (small screens)-------------------- */
 @media screen and (max-width:600px) {
-    .about__section-image {
-        width: 80%;
-        margin-inline: auto;
-    }
-
-    .about__story-container,
-    .about__vision-container,
-    .about__mission-container {
+    .blog__container {
         gap: 2rem;
     }
 }

@@ -11,11 +11,11 @@
 }
 
 :root {
-    --primary-hue: 230;
+    --primary-hue: 231;
     --gray-hue: 240;
-    --color-primary: hsl(var(--primary-hue), 100%, 40%);
+    --color-primary: hsl(var(--primary-hue), 83%, 11%);
     --color-primary-variant: hsl(var(--primary-hue), 100%, 85%);
-    --color-secondary: #9b9079;
+    --color-secondary: #FEA900;
     --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
     --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
     --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
@@ -80,11 +80,11 @@ img {
 
 
 .btn {
-    color: var(--color-gray-100);
+    color: var(--color-primary);
     width: fit-content;
     margin: 0 auto;
     padding: 0.9rem 2rem;
-    background: var(--color-primary);
+    background: var(--color-secondary);
     border-radius: 1.5rem;
     transition: var(--transition);
 }
@@ -183,7 +183,7 @@ section {
 
 
 .header {
-    margin-top: 5rem;
+    margin-top: 4.5rem;
     height: 20rem;
     overflow: hidden;
     border-bottom: 2px solid var(--color-gray-400);
@@ -267,6 +267,6 @@ section {
     }
 
     .header__content p {
-        font-size: 0.85rem;
+        font-size: 0.80rem;
     }
 }

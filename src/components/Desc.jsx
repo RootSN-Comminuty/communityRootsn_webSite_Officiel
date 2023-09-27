@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import DescImage from "../images/1.jpg";
+//import DescImage from "../images/1.jpg";
+import DescImage from "../images/Connected world-cuate.png";
 
 
 const Desc = () => {
@@ -12,6 +13,10 @@ const Desc = () => {
                 <div className="desc-content">
                     <h1><span>Une Communauté</span> pour tout le monde</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis.
                     </p>
                 </div>

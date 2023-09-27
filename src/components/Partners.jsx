@@ -1,40 +1,45 @@
 import SectionHead from "./SectionHead"
-import { ImQuotesLeft } from "react-icons/im"
-import Image from '../images/main_header.png'
+import { FaHandshake } from "react-icons/fa"
+import PatnerImage1 from "../images/partners_artefakt.jpg";
+import PatnerImage2 from "../images/partners_il4life.png";
+import PatnerImage3 from "../images/partners_lmn.png";
+import PatnerImage4 from "../images/partners_xarala.png";
 
 const Partners = () => {
     return (
-        <div className="partner-carousel">
-            <SectionHead icon={<ImQuotesLeft />} title="Nos Patenaires" className="testimonials__head" />
-            <div className="partner-carousel-inner">
-                <img className="partner-logo" src={Image} alt="Partner Logo 1" />
-                <img
-                    className="partner-logo"
-                    src={Image}
-                    alt="Partner Logo 2"
-                />
-                <img
-                    className="partner-logo"
-                    src={Image}
-                    alt="Partner Logo 3"
-                />
-                <img
-                    className="partner-logo"
-                    src={Image}
-                    alt="Partner Logo 4"
-                />
-                <img
-                    className="partner-logo"
-                    src={Image}
-                    alt="Partner Logo 5"
-                />
-                <img
-                    className="partner-logo"
-                    src={Image}
-                    alt="Partner Logo 6"
-                />
+        <section className="partners">
+            <SectionHead icon={<FaHandshake />} title="Nos Partenaires" className="partners__head" />
+            <div className="partners__wrapper">
+                <ul>
+                    <li>
+                        <img src={PatnerImage1} alt="Logo 1" />
+                    </li>
+                    <li>
+                        <img src={PatnerImage2} alt="Logo 2" />
+                    </li>
+                    <li>
+                        <img src={PatnerImage3} alt="Logo 3" />
+                    </li>
+                    <li>
+                        <img src={PatnerImage4} alt="Logo 4" />
+                    </li>
+                    <li>
+                        <img src={PatnerImage1} alt="Logo 1" />
+                    </li>
+                    <li>
+                        <img src={PatnerImage2} alt="Logo 2" />
+                    </li>
+                    <li>
+                        <img src={PatnerImage3} alt="Logo 3" />
+                    </li>
+                    <li>
+                        <img src={PatnerImage4} alt="Logo 4" />
+                    </li>
+                </ul>
+
             </div>
-        </div>
+        </section>
+
     )
 }
 

@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import Header from "../../components/Header";
 import HeaderImage from "../../images/header_bg_2.jpg";
-import StoryImage from "../../images/about1.png"
-import VisionImage from "../../images/about2.png"
-import MissionImage from "../../images/about3.png"
+import StoryImage from "../../images/Secure data-bro.png"
+import VisionImage from "../../images/Hacker-cuate.png"
+import MissionImage from "../../images/Secure Server-amico.png"
+import { Link } from "react-router-dom";
 import './about.css'
 
 const About = () => {
@@ -74,6 +75,17 @@ const About = () => {
                         </p>
                     </div>
 
+                </div>
+            </section>
+
+            <section className='joinabout'>
+                <div className='container joinabout__container'>
+                    <h2>Devenez membre de la <span>Communinauté</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Vel incidunt similique molestiae provident rerum voluptate modi ad ratione
+                        maxime sapiente fuga excepturi dolorum cumque quamvoluptate assumenda
+                        fugiat minima. Alias aut facere quo quasi. Itaque et voluptatem excepturi molestias.</p>
+                    <Link to="/" className='btn'>Rejoignez-nous</Link>
                 </div>
             </section>
         </>

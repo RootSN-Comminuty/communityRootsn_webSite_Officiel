@@ -1,5 +1,6 @@
 /* --------------------Home Section-------------------- */
 .main__header {
+    background: var(--color-gray-600);
     width: 100vw;
     height: calc(100vh - 3rem);
     display: grid;
@@ -22,6 +23,10 @@
     font-weight: 400;
 }
 
+.main__header-left .btn {
+    font-weight: 600;
+}
+
 .main__header-left p {
     margin: 1rem 0 3.5rem;
     font-size: 1rem;
@@ -36,7 +41,7 @@
 .main__header-circle {
     width: 25rem;
     height: 25rem;
-    background: linear-gradient(75deg, var(--color-primary), transparent);
+    background: linear-gradient(75deg, var(--color-gray-400), transparent);
     border-radius: 50%;
     position: absolute;
     transition: var(--transition);
@@ -254,12 +259,13 @@
     grid-template-columns: 55% 40%;
     gap: 5%;
     margin-top: 3rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
 }
 
 .desc-image {
-    /* border-radius: 2rem 2rem;
-    overflow: hidden; */
+    margin: auto;
+    overflow: hidden;
+    filter: drop-shadow(10px 8px 6px var(--color-secondary));
 }
 
 
@@ -280,9 +286,10 @@
     margin-bottom: 10rem;
 }
 
-.desc-2image {
-    /* border-radius: 2rem 2rem;
-    overflow: hidden; */
+.desc2-image {
+    margin: auto;
+    overflow: hidden;
+    filter: drop-shadow(10px 8px 6px var(--color-secondary));
 }
 
 
@@ -313,6 +320,11 @@
     justify-content: center;
 }
 
+.programs__program a {
+    background: var(--color-primary);
+    color: var(--color-gray-100);
+}
+
 .programs__program:hover a {
     background: var(--color-secondary);
     color: var(--color-gray-600);
@@ -335,6 +347,7 @@
 
 .activities__image:hover {
     filter: saturate(1);
+    filter: drop-shadow(10px 8px 6px var(--color-secondary));
 }
 
 .activities__right>p {
@@ -451,7 +464,7 @@
 }
 
 .testimonials__btn svg {
-    fill: var(--color-primary);
+    fill: var(--color-gray-400);
     font-size: 1.8rem;
     width: 3rem;
     height: 3rem;
@@ -479,7 +492,74 @@
 .join__container .btn {
     margin-top: 2rem;
     display: inline-block;
+    font-weight: 600;
 }
+
+/* --------------------Partners Section-------------------- */
+.partners {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.partners__head {
+    justify-content: center;
+}
+
+.partners__wrapper {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.partners__wrapper ul {
+    padding: 0;
+    margin: 0;
+}
+
+.partners__wrapper ul li {
+    list-style: none;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px -7px var(--color-primary);
+    transition: .5s;
+}
+
+.partners__wrapper ul li:hover {
+    box-shadow: 0px 0px 20px -7px var(--color-primary-variant);
+    transition: .5s;
+}
+
+.partners__wrapper ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .partners__wrapper ul li img:nth-child(1) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.partners__wrapper ul li img:nth-child(2) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.partners__wrapper ul li:hover img:nth-child(1) {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+
+.partners__wrapper ul li:hover img:nth-child(2) {
+    transform: translateY(-100%);
+    transition: .5s;
+} */
 
 
 /* --------------------Footer Section-------------------- */
