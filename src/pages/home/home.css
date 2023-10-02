@@ -1,5 +1,6 @@
 /* --------------------Home Section-------------------- */
 .main__header {
+    background: var(--color-gray-600);
     width: 100vw;
     height: calc(100vh - 3rem);
     display: grid;
@@ -22,9 +23,13 @@
     font-weight: 400;
 }
 
+.main__header-left .btn {
+    font-weight: 600;
+}
+
 .main__header-left p {
     margin: 1rem 0 3.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .main__header-right {
@@ -36,7 +41,7 @@
 .main__header-circle {
     width: 25rem;
     height: 25rem;
-    background: linear-gradient(75deg, var(--color-secondary), transparent);
+    background: linear-gradient(75deg, var(--color-gray-400), transparent);
     border-radius: 50%;
     position: absolute;
     transition: var(--transition);
@@ -45,6 +50,202 @@
 
 .main__header-image {
     position: relative;
+    width: 25rem;
+    height: 25rem;
+}
+
+:root {
+    --bg: transparent --clr-1: #00c2ff;
+    --clr-2: #36a769;
+    --clr-3: #a0a36ebe;
+    --clr-4: #1c66aa;
+
+    --blur: 1rem;
+    --fs: clamp(1rem, 8vw, 2.8rem);
+    --ls: clamp(-1.75px, -0.25vw, -3.5px);
+}
+
+*,
+*::before,
+*::after {
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: var(--fs);
+    font-weight: 800;
+    letter-spacing: var(--ls);
+    position: relative;
+    overflow: hidden;
+    background: var(--bg);
+    margin: 0;
+}
+
+.aurora {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    mix-blend-mode: darken;
+    pointer-events: none;
+}
+
+.aurora__item {
+    overflow: hidden;
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    background-color: var(--clr-1);
+    border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%;
+    filter: blur(var(--blur));
+    mix-blend-mode: overlay;
+}
+
+.aurora__item:nth-of-type(1) {
+    top: -50%;
+    animation: aurora-border 6s ease-in-out infinite,
+        aurora-1 12s ease-in-out infinite alternate;
+}
+
+.aurora__item:nth-of-type(2) {
+    background-color: var(--clr-3);
+    right: 0;
+    top: 0;
+    animation: aurora-border 6s ease-in-out infinite,
+        aurora-2 12s ease-in-out infinite alternate;
+}
+
+.aurora__item:nth-of-type(3) {
+    background-color: var(--clr-2);
+    left: 0;
+    bottom: 0;
+    animation: aurora-border 6s ease-in-out infinite,
+        aurora-3 8s ease-in-out infinite alternate;
+}
+
+.aurora__item:nth-of-type(4) {
+    background-color: var(--clr-4);
+    right: 0;
+    bottom: -50%;
+    animation: aurora-border 6s ease-in-out infinite,
+        aurora-4 24s ease-in-out infinite alternate;
+}
+
+@keyframes aurora-1 {
+    0% {
+        top: 0;
+        right: 0;
+    }
+
+    50% {
+        top: 100%;
+        right: 75%;
+    }
+
+    75% {
+        top: 100%;
+        right: 25%;
+    }
+
+    100% {
+        top: 0;
+        right: 0;
+    }
+}
+
+@keyframes aurora-2 {
+    0% {
+        top: -50%;
+        left: 0%;
+    }
+
+    60% {
+        top: 100%;
+        left: 75%;
+    }
+
+    85% {
+        top: 100%;
+        left: 25%;
+    }
+
+    100% {
+        top: -50%;
+        left: 0%;
+    }
+}
+
+@keyframes aurora-3 {
+    0% {
+        bottom: 0;
+        left: 0;
+    }
+
+    40% {
+        bottom: 100%;
+        left: 75%;
+    }
+
+    65% {
+        bottom: 40%;
+        left: 50%;
+    }
+
+    100% {
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@keyframes aurora-4 {
+    0% {
+        bottom: -50%;
+        right: 0;
+    }
+
+    50% {
+        bottom: 0%;
+        right: 40%;
+    }
+
+    90% {
+        bottom: 50%;
+        right: 25%;
+    }
+
+    100% {
+        bottom: -50%;
+        right: 0;
+    }
+}
+
+@keyframes aurora-border {
+    0% {
+        border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%;
+    }
+
+    25% {
+        border-radius: 47% 29% 39% 49% / 61% 19% 66% 26%;
+    }
+
+    50% {
+        border-radius: 57% 23% 47% 72% / 63% 17% 66% 33%;
+    }
+
+    75% {
+        border-radius: 28% 49% 29% 100% / 93% 20% 64% 25%;
+    }
+
+    100% {
+        border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%;
+    }
 }
 
 /* .main__header-right:hover .main__header-circle {
@@ -52,6 +253,53 @@
 } */
 
 
+/* --------------------Desc Section-------------------- */
+.desc-container {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 5%;
+    margin-top: 3rem;
+    margin-bottom: 12rem;
+}
+
+.desc-image {
+    margin: auto;
+    overflow: hidden;
+    filter: drop-shadow(10px 8px 6px var(--color-secondary));
+}
+
+
+.desc-content h1 {
+    margin-bottom: 2rem;
+}
+
+.desc-content p {
+    margin-bottom: 1rem;
+}
+
+/* --------------------Desc2 Section-------------------- */
+.desc2-container {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    gap: 5%;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.desc2-image {
+    margin: auto;
+    overflow: hidden;
+    filter: drop-shadow(10px 8px 6px var(--color-secondary));
+}
+
+
+.desc2-content h1 {
+    margin-bottom: 2rem;
+}
+
+.desc2-content p {
+    margin-bottom: 1rem;
+}
 
 /* --------------------Programs Section-------------------- */
 .programs {
@@ -72,6 +320,11 @@
     justify-content: center;
 }
 
+.programs__program a {
+    background: var(--color-primary);
+    color: var(--color-gray-100);
+}
+
 .programs__program:hover a {
     background: var(--color-secondary);
     color: var(--color-gray-600);
@@ -79,40 +332,41 @@
 
 
 
-/* --------------------Value Section-------------------- */
-.values__container {
+/* --------------------Activity Section-------------------- */
+.activities__container {
     display: grid;
     grid-template-columns: 38% 50%;
     gap: 12%;
 }
 
-.values__image {
+.activities__image {
     margin-top: 10.5rem;
     filter: saturate(0.25);
     transition: var(--transition);
 }
 
-.values__image:hover {
+.activities__image:hover {
     filter: saturate(1);
+    filter: drop-shadow(10px 8px 6px var(--color-secondary));
 }
 
-.values__right>p {
+.activities__right>p {
     margin: 1.5rem 0 5rem;
 }
 
-.values__wrapper {
+.activities__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3.4rem 2.4rem;
 }
 
-.card.values__value {
+.card.activities__activity {
     padding-top: 3.5rem;
     text-align: left;
     position: relative;
 }
 
-.card.values__value span {
+.card.activities__activity span {
     position: absolute;
     top: -1.5rem;
 }
@@ -210,11 +464,102 @@
 }
 
 .testimonials__btn svg {
-    fill: var(--color-primary);
+    fill: var(--color-gray-400);
     font-size: 1.8rem;
     width: 3rem;
     height: 3rem;
 }
+
+/* --------------------Join Section-------------------- */
+.join {
+    background: var(--color-gray-500);
+    margin-top: 7rem;
+    padding-top: 4rem;
+    margin-bottom: 5rem;
+    padding-bottom: 4rem;
+}
+
+.join__container {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.join__container h2 {
+    margin-bottom: 2rem;
+
+}
+
+.join__container .btn {
+    margin-top: 2rem;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* --------------------Partners Section-------------------- */
+.partners {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.partners__head {
+    justify-content: center;
+}
+
+.partners__wrapper {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.partners__wrapper ul {
+    padding: 0;
+    margin: 0;
+}
+
+.partners__wrapper ul li {
+    list-style: none;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px -7px var(--color-primary);
+    transition: .5s;
+}
+
+.partners__wrapper ul li:hover {
+    box-shadow: 0px 0px 20px -7px var(--color-primary-variant);
+    transition: .5s;
+}
+
+.partners__wrapper ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .partners__wrapper ul li img:nth-child(1) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.partners__wrapper ul li img:nth-child(2) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.partners__wrapper ul li:hover img:nth-child(1) {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+
+.partners__wrapper ul li:hover img:nth-child(2) {
+    transform: translateY(-100%);
+    transition: .5s;
+} */
 
 
 /* --------------------Footer Section-------------------- */
@@ -306,23 +651,59 @@ footer {
         height: 16rem;
     }
 
+    /* DESC */
+    .desc-image {
+        width: 60%;
+    }
+
+    .desc-content h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    .desc-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .desc-image {
+        grid-row: 1;
+    }
+
+    /* DESC2 */
+    .desc2-image {
+        width: 60%;
+    }
+
+    .desc2-content h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    .desc2-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .desc2-image {
+        grid-row: 1;
+    }
+
     /* PROGRAMS */
     .programs__wrapper {
         grid-template-columns: 1fr;
     }
 
-    /* VALUES */
-    .values__container {
+    /* ACTIVITIES */
+    .activities__container {
         grid-template-columns: 1fr;
         justify-content: center;
         gap: 4rem;
     }
 
-    .values__wrapper {
+    .activities__wrapper {
         gap: 4rem 3rem;
     }
 
-    .values__image {
+    .activities__image {
         display: none;
     }
 
@@ -363,6 +744,26 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    /* DESC */
+    .desc-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .desc-container {
+        gap: 2rem;
+    }
+
+    /* DESC2 */
+    .desc2-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .desc2-container {
+        gap: 2rem;
+    }
+
     /* PROGRAMS */
     .programs__wrapper {
         grid-template-columns: 1fr;
@@ -375,13 +776,13 @@ footer {
         margin: 0 auto;
     }
 
-    /* VALUES */
-    .values__wrapper {
+    /* Activities */
+    .activities__wrapper {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
 
-    .card.values__value {
+    .card.activities__activity {
         width: 84%;
         margin-inline: auto;
     }

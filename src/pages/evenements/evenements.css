@@ -1,0 +1,149 @@
+/* .evens .section__header {
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+}
+
+.evens .evens-container {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 5%;
+    margin-top: 1rem;
+    margin-bottom: 12rem;
+}
+
+.evens-image-right {
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+
+.evens-left h1 {
+    margin-bottom: 1rem;
+}
+
+.evens-left p {
+    margin-bottom: 3rem;
+} */
+
+/* --------------------EVENS1 Section-------------------- */
+.evens1-container {
+    display: grid;
+    grid-template-columns: 50% 45%;
+    gap: 5%;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+/* .evens1-image {
+    border-radius: 2rem 2rem;
+    overflow: hidden;
+} */
+
+
+.evens1-content h1 {
+    margin-bottom: 2rem;
+}
+
+.evens1-content p {
+    margin-bottom: 4rem;
+}
+
+.evens1-content .btn {
+    font-weight: 600;
+}
+
+
+/* --------------------EVENS2 Section-------------------- */
+.evens2-container {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    gap: 5%;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+/* .evens2-2image {
+    border-radius: 2rem 2rem;
+    overflow: hidden; 
+} */
+
+
+.evens2-content h1 {
+    margin-bottom: 2rem;
+}
+
+.evens2-content p {
+    margin-bottom: 4rem;
+}
+
+.evens2-content .btn {
+    font-weight: 600;
+}
+
+
+/* --------------------MEDIA QUERIES (medium screens)-------------------- */
+@media screen and (max-width:1024px) {
+
+    /* EVENS1 */
+    .evens1-image {
+        width: 60%;
+    }
+
+    .evens1-content h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    .evens1-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .evens1-image {
+        grid-row: 1;
+    }
+
+    /* EVENS2 */
+    .evens2-image {
+        width: 60%;
+    }
+
+    .evens2-content h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    .evens2-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .evens2-image {
+        grid-row: 1;
+    }
+
+}
+
+
+/* --------------------MEDIA QUERIES (medium screens)-------------------- */
+@media screen and (max-width:600px) {
+
+    /* EVENS1 */
+    .evens1-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .evens1-container {
+        gap: 2rem;
+    }
+
+    /* EVENS2 */
+    .evens2-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .evens2-container {
+        gap: 2rem;
+    }
+
+}
