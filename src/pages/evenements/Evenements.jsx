@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
-import HeaderImage from '../../images/header_bg_3.jpg'
-import Evens1Image from "../../images/rm373batch4-15.jpg";
-import Evens2Image from "../../images/rm373batch4-15.jpg";
+import HeaderImage from '../../images/bg_Octobre_Cyber.png'
+import Evens1Image from "../../images/Logo_OCBR.png"
+import Evens2Image from "../../images/ocobre_cyber.png";
 
 //import SectionHead from "../../components/SectionHead"
 //import { MdOutlineSecurity } from 'react-icons/md'
@@ -15,7 +15,8 @@ import './evenements.css'
 const Evenements = () => {
     return (
         <>
-            <Header title="Evenements" image={HeaderImage}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <Header title="Evenements" image={HeaderImage}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 A aliquid earum labore ut doloribus quae nam sit, nemo autem! Odit!
             </Header>
 
@@ -72,6 +73,11 @@ const Evenements = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut veritatis culpa ex nam sunt, iste et.
+                            Et pariatur aspernatur consequuntur tempora libero aliquam natus? Nobis ea tempora,
+                            quod minima voluptate odio voluptates ullam laborum perferendis! Vitae quis dolorum laboriosam possimus soluta error.
+                            Sunt sint quibusdam ratione eligendi repellendus placeat reprehenderit?
                         </p>
                         <Link to="/about" className="btn lg">Suivre l'Evenement</Link>
                     </div>
