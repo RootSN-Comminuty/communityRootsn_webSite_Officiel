@@ -22,10 +22,10 @@ const Footer = () => {
                         ducimus libero, tempora consequuntur reprehenderit omnis accusamus.
                     </p>
                     <div className="footer__socials">
-                        <a href="https://linkedin.com/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn /></a>
-                        <a href="https://facebook.com/" target="_blank" rel="noreferrer noopener"><FaFacebookF /></a>
-                        <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><BsTwitter /></a>
-                        <a href="https://instagram.com/" target="_blank" rel="noreferrer noopener"><BsInstagram /></a>
+                        <a href="https://www.linkedin.com/company/93371847" target="_blank" rel="noreferrer noopener"><FaLinkedinIn /></a>
+                        <a href="https://www.facebook.com/RootsnCommunity" target="_blank" rel="noreferrer noopener"><FaFacebookF /></a>
+                        <a href="https://twitter.com/RootSNCommunity/" target="_blank" rel="noreferrer noopener"><BsTwitter /></a>
+                        <a href="https://www.instagram.com/rootsncommunity_officiel/" target="_blank" rel="noreferrer noopener"><BsInstagram /></a>
                     </div>
                 </article>
                 <article>
@@ -35,7 +35,7 @@ const Footer = () => {
                     <Link to="/blogs">Blog</Link>
                     <Link to="/ministres">Ministres</Link>
                     <Link to="/galerie">Galerie</Link>
-                    <Link to="/contact">Contact</Link>
+                    {/* <Link to="/contact">Contact</Link> */}
                 </article>
                 <article>
                     <h4>OCBRSN2023</h4>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </article>
                 <article>
                     <h4>Nos Contacts</h4>
-                    <Link to="/contact">Contacter-Nous</Link>
+                    <Link to="/contact">Rejoigner-Nous</Link>
                     <Link to="/">Support</Link>
                 </article>
             </div>

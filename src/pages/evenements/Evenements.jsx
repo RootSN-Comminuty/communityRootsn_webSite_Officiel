@@ -58,7 +58,7 @@ const Evenements = () => {
                             Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
-                        <Link to="https://octobrecyber.communityrootsn.com" className="btn lg">Suivre l'Evenement</Link>
+                        <Link to="https://octobrecyber.communityrootsn.com" target='_blank' className="btn lg">Suivre l'Evenement</Link>
                     </div>
                 </div>
             </section>
@@ -79,7 +79,7 @@ const Evenements = () => {
                             quod minima voluptate odio voluptates ullam laborum perferendis! Vitae quis dolorum laboriosam possimus soluta error.
                             Sunt sint quibusdam ratione eligendi repellendus placeat reprehenderit?
                         </p>
-                        <Link to="/about" className="btn lg">Suivre l'Evenement</Link>
+                        <Link to="https://octobrecyber.communityrootsn.com" target='_blank' className="btn lg">Suivre l'Evenement</Link>
                     </div>
                     <div className="evens2-image">
                         <img src={Evens2Image} alt="Evens2 Image" />
