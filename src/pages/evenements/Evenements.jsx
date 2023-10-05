@@ -58,7 +58,7 @@ const Evenements = () => {
                             Libero rerum assumenda aliquam, exercitationem necessitatibus optio eos ab perferendis.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
-                        <Link to="/about" className="btn lg">Suivre l'Evenement</Link>
+                        <Link to="https://octobrecyber.communityrootsn.com" className="btn lg">Suivre l'Evenement</Link>
                     </div>
                 </div>
             </section>

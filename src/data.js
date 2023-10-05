@@ -116,7 +116,7 @@ export const faqs = [
     },
     {
         id: 5,
-        question: "Maiores fuga, cum praesentium esse laudantium?",
+        question: "Maiores fuga, cum praesentium esse?",
         answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
     },
     {
