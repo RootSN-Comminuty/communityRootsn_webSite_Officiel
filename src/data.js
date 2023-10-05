@@ -37,30 +37,30 @@ export const programs = [
     {
         id: 1,
         icon: <SiSecurityscorecard/>,
-        title: "Programme",
+        title: "Sensibilisation",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eagty!",
-        path: "/programs/111"
+        path: "https://octobrecyber.communityrootsn.com"
     },
     {
         id: 2,
         icon: <SiSecurityscorecard/>,
-        title: "Programme",
+        title: "Webinaire",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eagty!",
-        path: "/programs/222"
+        path: "https://octobrecyber.communityrootsn.com"
     },
     {
         id: 3,
         icon: <SiSecurityscorecard/>,
-        title: "Programme",
+        title: "Formation",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eagty!",
-        path: "/programs/333"
+        path: "https://octobrecyber.communityrootsn.com"
     },
     {
         id: 4,
         icon: <SiSecurityscorecard/>,
-        title: "Programme",
+        title: "Programme 4",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eagty!",
-        path: "/programs/444"
+        path: "https://octobrecyber.communityrootsn.com"
     }
 ]
 
