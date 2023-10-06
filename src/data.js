@@ -37,30 +37,30 @@ export const programs = [
     {
         id: 1,
         icon: <SiSecurityscorecard/>,
-        title: "Programme",
+        title: "Sensibilisation",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eagty!",
-        path: "/programs/111"
+        path: "https://octobrecyber.communityrootsn.com"
     },
     {
         id: 2,
         icon: <SiSecurityscorecard/>,
-        title: "Programme",
+        title: "Webinaire",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eagty!",
-        path: "/programs/222"
+        path: "https://octobrecyber.communityrootsn.com"
     },
     {
         id: 3,
         icon: <SiSecurityscorecard/>,
-        title: "Programme",
+        title: "Formation",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eagty!",
-        path: "/programs/333"
+        path: "https://octobrecyber.communityrootsn.com"
     },
     {
         id: 4,
         icon: <SiSecurityscorecard/>,
-        title: "Programme",
+        title: "Programme 4",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eagty!",
-        path: "/programs/444"
+        path: "https://octobrecyber.communityrootsn.com"
     }
 ]
 
@@ -116,7 +116,7 @@ export const faqs = [
     },
     {
         id: 5,
-        question: "Maiores fuga, cum praesentium esse laudantium?",
+        question: "Maiores fuga, cum praesentium esse?",
         answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
     },
     {
@@ -173,8 +173,8 @@ const Minister1 = require('./images/minister1.jpg')
 const Minister2 = require('./images/minister2.jpg')
 const Minister3 = require('./images/minister3.jpg')
 const Minister4 = require('./images/minister4.jpg')
-const Minister6 = require('./images/minister6.jpg')
 const Minister5 = require('./images/minister5.jpg')
+const Minister6 = require('./images/minister6.jpg')
 
 const Minister7 = require('./images/minister7.jpg')
 // const Minister8 = require('./images/minister8.jpg')
@@ -187,59 +187,43 @@ export const ministers = [
     {
         id: 1,
         image: Minister1,
-        name: 'Prenom & Nom',
-        job: 'President',
+        name: 'Gerard Dacosta',
+        job: 'Initiateur, Co-fondateur & Cyber-Coordonnateur de #rootSNCommunity',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 2,
         image: Minister2,
-        name: 'Prenom & Nom',
-        job: 'Vice President',
+        name: 'Guilaye Tine',
+        job: 'Co-fondateur & Cyber-Coordonnateur de #rootSNCommunity',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 3,
         image: Minister3,
-        name: 'Prenom & Nom',
-        job: 'Cyber Ministre',
+        name: 'Fanar Bandia',
+        job: 'Cyber-Vice President de #rootSNCommunity',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 4,
         image: Minister4,
-        name: 'Prenom & Nom',
-        job: 'Cyber Ministre',
+        name: 'Abdou Aziz Ndiaye',
+        job: 'Cyber-Ministre de la Sensibilisation et de la Formation',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 5,
         image: Minister5,
-        name: 'Prenom & Nom',
-        job: 'Cyber Ministre',
+        name: 'El Hadji Mbodji',
+        job: 'Cyber-Ministre de la Communication et des Relations Exterieures',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 6,
         image: Minister6,
-        name: 'Prenom & Nom',
-        job: 'Cyber Ministre',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-
-    {
-        id: 7,
-        image: Minister6,
-        name: 'Prenom & Nom',
-        job: 'Cyber Ministre',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-
-    {
-        id: 8,
-        image: Minister6,
-        name: 'Prenom & Nom',
-        job: 'Cyber Ministre',
+        name: 'Mohamed Abdallah Fall',
+        job: "Cyber-Ministre de l'Organisation & Cyber Dev",
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     }
 ]

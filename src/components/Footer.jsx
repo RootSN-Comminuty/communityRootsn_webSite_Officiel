@@ -22,33 +22,33 @@ const Footer = () => {
                         ducimus libero, tempora consequuntur reprehenderit omnis accusamus.
                     </p>
                     <div className="footer__socials">
-                        <a href="https://linkedin.com/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn /></a>
-                        <a href="https://facebook.com/" target="_blank" rel="noreferrer noopener"><FaFacebookF /></a>
-                        <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><BsTwitter /></a>
-                        <a href="https://instagram.com/" target="_blank" rel="noreferrer noopener"><BsInstagram /></a>
+                        <a href="https://www.linkedin.com/company/93371847" target="_blank" rel="noreferrer noopener"><FaLinkedinIn /></a>
+                        <a href="https://www.facebook.com/RootsnCommunity" target="_blank" rel="noreferrer noopener"><FaFacebookF /></a>
+                        <a href="https://twitter.com/RootSNCommunity/" target="_blank" rel="noreferrer noopener"><BsTwitter /></a>
+                        <a href="https://www.instagram.com/rootsncommunity_officiel/" target="_blank" rel="noreferrer noopener"><BsInstagram /></a>
                     </div>
                 </article>
                 <article>
                     <h4>Liens Utiles</h4>
                     <Link to="/about">A Propos</Link>
-                    <Link to="/event">Evenements</Link>
-                    <Link to="/blocs">Blog</Link>
-                    <Link to="/ministers">Ministres</Link>
-                    <Link to="/gallery">Galerie</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/evenements">Evenements</Link>
+                    <Link to="/blogs">Blog</Link>
+                    <Link to="/ministres">Ministres</Link>
+                    <Link to="/galerie">Galerie</Link>
+                    {/* <Link to="/contact">Contact</Link> */}
                 </article>
                 <article>
                     <h4>OCBRSN2023</h4>
-                    <Link to="/s">A Propos</Link>
-                    <Link to="/s">Speakers</Link>
-                    <Link to="/s">Blog</Link>
-                    <Link to="/s">Programme</Link>
-                    <Link to="/s">Contact</Link>
+                    <Link to="https://octobrecyber.communityrootsn.com" target="_blank">A Propos</Link>
+                    <Link to="https://octobrecyber.communityrootsn.com" target="_blank">Speakers</Link>
+                    <Link to="https://octobrecyber.communityrootsn.com" target="_blank">Blog</Link>
+                    <Link to="https://octobrecyber.communityrootsn.com" target="_blank">Programme</Link>
+                    <Link to="https://octobrecyber.communityrootsn.com" target="_blank">Contact</Link>
                 </article>
                 <article>
                     <h4>Nos Contacts</h4>
-                    <Link to="/contact">Contacter-Nous</Link>
-                    <Link to="/s">Support</Link>
+                    <Link to="/contact">Rejoigner-Nous</Link>
+                    <Link to="/">Support</Link>
                 </article>
             </div>
             <div className="footer__copyright">
