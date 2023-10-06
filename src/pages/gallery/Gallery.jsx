@@ -17,7 +17,7 @@ const Gallery = () => {
                 A aliquid earum labore ut doloribus quae nam sit, nemo autem! Odit!
             </Header>
 
-            <section className='gallery'>
+            {/* <section className='gallery'>
                 <div className='container gallery__container'>
                     {
                         images.map((image, index) => {
@@ -27,7 +27,7 @@ const Gallery = () => {
                         })
                     }
                 </div>
-            </section>
+            </section> */}
 
         </>
     )
