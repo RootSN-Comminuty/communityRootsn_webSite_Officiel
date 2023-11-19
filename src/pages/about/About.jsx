@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import Header from "../../components/Header";
-import HeaderImage from "../../images/rm373batch4-15.jpg";
+import HeaderImage from "../../images/header_bg_3.jpg";
 import StoryImage from "../../images/Secure data-bro.png"
 import VisionImage from "../../images/Hacker-cuate.png"
 import MissionImage from "../../images/Secure Server-amico.png"

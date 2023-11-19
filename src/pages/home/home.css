@@ -82,7 +82,7 @@
     letter-spacing: var(--ls);
     position: relative;
     overflow: hidden;
-    background: var(--bg);
+    /* background: var(--bg); */
     margin: 0;
 }
 
